@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default class ApiService {
 
-    static BASE_URL = "http://localhost:2424";
+    static BASE_URL = "https://ecommerece2002be-3c0e31a023d2.herokuapp.com";
 
     static getHeader() {
         const token = localStorage.getItem("token");
